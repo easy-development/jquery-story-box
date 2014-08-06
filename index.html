@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Story Box Documentation</title>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+  <link href="story-box/animate.css" rel="stylesheet" type="text/css">
+  <script src="story-box/jquery.js"></script>
+  <script src="story-box/story-box.min.js"></script>
+
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <h2 class="text-success text-center">Documentation</h2>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Thank you !
+    </div>
+    <div class="panel-body">
+      <p><strong>Thank you</strong> for trusting our newest product Story Box.</p>
+      <p>We've created this jQuery plugin specially for people like you, who want to make a change !</p>
+      <p><strong class="text-success">Feel free to email me at anytime : rusuandreirobert@gmail.com, it's my personal email, so I can assist you 24/7</strong></p>
+      <p>Please take a moment of your time and rate our extension, it helps us know the quality of our products</p>
+      <p>Any suggestions are welcome, we <strong>LOVE</strong> feedback.</p>
+      <p>Just a heads up, we left a copy of our page "Unique Demo" in this documentation folder, just in case you need inspiration.</p>
+    </div>
+  </div>
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      Including the Library
+    </div>
+    <div class="panel-body">
+      <span style='color:#308080; '>&lt;</span>link href<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>story-box/animate.css</span><span style='color:#800000; '>"</span> rel<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>stylesheet</span><span style='color:#800000; '>"</span> type<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>text/css</span><span style='color:#800000; '>"</span><span style='color:#308080; '>></span>
+      <br/>
+      <span style='color:#308080; '>&lt;</span>link href<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>story-box/story-box-zen.css</span><span style='color:#800000; '>"</span> rel<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>stylesheet</span><span style='color:#800000; '>"</span> type<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>text/css</span><span style='color:#800000; '>"</span><span style='color:#308080; '>></span>
+      <br/>
+      <span style='color:#308080; '>&lt;</span>script src<span style='color:#308080; '>=</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>story-box/story-box.min.js</span><span style='color:#800000; '>"</span><span style='color:#308080; '>></span><span style='color:#308080; '>&lt;</span><span style='color:#308080; '>/</span>script<span style='color:#308080; '>></span>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Using the Library
+    </div>
+    <div class="panel-body">
+      <p>This library automatically selects all the elements that have the <strong class="text-danger">"data-sb"</strong> HTML Attribute.</p>
+      <p><strong class="text-danger">Each element can have it's own effect</strong></p>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <span class="label label-danger">HOT</span> Available NEW Zen Entrance Effects
+    </div>
+    <div class="panel-heading">
+      <p>Param : <strong class="text-danger">"data-sb"</strong></p>
+      <p>Click any of them for a preview.</p>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+                  <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInUp&hide-effect=fadeOutUp">
+              zenFadeInUp            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInRight&hide-effect=fadeOutUp">
+              zenFadeInRight            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInDown&hide-effect=fadeOutUp">
+              zenFadeInDown            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInLeft&hide-effect=fadeOutUp">
+              zenFadeInLeft            </a>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInUpBig&hide-effect=fadeOutUp">
+              zenFadeInUpBig            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInRightBig&hide-effect=fadeOutUp">
+              zenFadeInRightBig            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInDownBig&hide-effect=fadeOutUp">
+              zenFadeInDownBig            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=zenFadeInLeftBig&hide-effect=fadeOutUp">
+              zenFadeInLeftBig            </a>
+          </div>
+          <div class="clearfix"></div><br/>                </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Available Entrance Effects
+    </div>
+    <div class="panel-heading">
+      <p>Param : <strong class="text-danger">"data-sb"</strong></p>
+      <p>Click any of them for a preview.</p>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+                  <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInUp&hide-effect=fadeOutUp">
+              fadeInUp            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInRight&hide-effect=fadeOutUp">
+              fadeInRight            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInDown&hide-effect=fadeOutUp">
+              fadeInDown            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInLeft&hide-effect=fadeOutUp">
+              fadeInLeft            </a>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInUpBig&hide-effect=fadeOutUp">
+              fadeInUpBig            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInRightBig&hide-effect=fadeOutUp">
+              fadeInRightBig            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInDownBig&hide-effect=fadeOutUp">
+              fadeInDownBig            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=fadeInLeftBig&hide-effect=fadeOutUp">
+              fadeInLeftBig            </a>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=bounceInUp&hide-effect=fadeOutUp">
+              bounceInUp            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=bounceInRight&hide-effect=fadeOutUp">
+              bounceInRight            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=bounceInDown&hide-effect=fadeOutUp">
+              bounceInDown            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=bounceInLeft&hide-effect=fadeOutUp">
+              bounceInLeft            </a>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=flipInX&hide-effect=fadeOutUp">
+              flipInX            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=flipInY&hide-effect=fadeOutUp">
+              flipInY            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=rotateIn&hide-effect=fadeOutUp">
+              rotateIn            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=rotateInDownLeft&hide-effect=fadeOutUp">
+              rotateInDownLeft            </a>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=rotateInDownRight&hide-effect=fadeOutUp">
+              rotateInDownRight            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=rotateInUpLeft&hide-effect=fadeOutUp">
+              rotateInUpLeft            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=rotateInUpRight&hide-effect=fadeOutUp">
+              rotateInUpRight            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=pulse&hide-effect=fadeOutUp">
+              pulse            </a>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=swing&hide-effect=fadeOutUp">
+              swing            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=wobble&hide-effect=fadeOutUp">
+              wobble            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=flash&hide-effect=fadeOutUp">
+              flash            </a>
+          </div>
+                              <div class="col-xs-2">
+            <a class="btn btn-default" href="clubix/index.php?effect=tada&hide-effect=fadeOutUp">
+              tada            </a>
+          </div>
+          <div class="clearfix"></div><br/>                </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Available Exit Effects <strong class="text-danger">- Optional</strong>
+    </div>
+    <div class="panel-heading">
+      <p>The Exit Effects are optional</p>
+      <p>If you don't want to run the entrance effects over and over again, just don't specify the param</p>
+      <p>Param : <strong class="text-danger">"data-sb-hide"</strong></p>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+                  <div class="col-xs-2">
+              <span class="btn btn-default">
+                hinge              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutUp              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutRight              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutDown              </span>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutLeft              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutUpBig              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutRightBig              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutDownBig              </span>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+              <span class="btn btn-default">
+                fadeOutLeftBig              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                bounceOutUp              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                bounceOutRight              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                bounceOutDown              </span>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+              <span class="btn btn-default">
+                bounceOutLeft              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                flipOutX              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                flipOutY              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                rotateOut              </span>
+          </div>
+          <div class="clearfix"></div><br/>                    <div class="col-xs-2">
+              <span class="btn btn-default">
+                rotateOutDownLeft              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                rotateOutDownRight              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                rotateOutUpLeft              </span>
+          </div>
+                              <div class="col-xs-2">
+              <span class="btn btn-default">
+                rotateOutUpRight              </span>
+          </div>
+          <div class="clearfix"></div><br/>                </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

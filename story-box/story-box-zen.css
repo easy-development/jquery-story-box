@@ -1,0 +1,141 @@
+/** General **/
+
+@-webkit-keyframes zenFadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes zenFadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/** Smooth Animations **/
+
+/** zenFadeIn **/
+
+.zenFadeIn {
+  -webkit-animation: zenFadeIn 0.5s;
+  animation: zenFadeIn 0.5s;
+}
+
+/** zenFadeInUp **/
+
+.zenFadeInUp {
+  -webkit-animation: zenFadeInUp 0.5s;
+  animation: zenFadeInUp 0.5s;
+}
+
+@-webkit-keyframes zenFadeInUp {
+  0% {opacity: 0;-webkit-transform: translateY(200px);}
+  100% {opacity: 1;-webkit-transform: translateY(0);}
+}
+@keyframes zenFadeInUp {
+  0% {opacity: 0;transform: translateY(200px);}
+  100% {opacity: 1;transform: translateY(0);}
+}
+
+/** zenFadeInLeft **/
+
+.zenFadeInLeft {
+  -webkit-animation: zenFadeInLeft 0.5s;
+  animation: zenFadeInLeft 0.5s;
+}
+
+@-webkit-keyframes zenFadeInLeft {
+  0% {opacity: 0;-webkit-transform: translateX(-200px);}
+  100% {opacity: 1;-webkit-transform: translateY(0);}
+}
+@keyframes zenFadeInLeft {
+  0% {opacity: 0;transform: translateX(-200px);}
+  100% {opacity: 1;transform: translateY(0);}
+}
+
+/** zenFadeInDown **/
+
+.zenFadeInDown {
+  -webkit-animation: zenFadeInDown 0.5s;
+  animation: zenFadeInDown 0.5s;
+}
+
+/** zenFadeInRight **/
+
+.zenFadeInRight {
+  -webkit-animation: zenFadeInRight 0.5s;
+  animation: zenFadeInRight 0.5s;
+}
+@-webkit-keyframes zenFadeInRight {
+  0% {opacity: 0;-webkit-transform: translateX(200px);}
+  100% {opacity: 1;-webkit-transform: translateY(0);}
+}
+@keyframes zenFadeInRight {
+  0% {opacity: 0;transform: translateX(200px);}
+  100% {opacity: 1;transform: translateY(0);}
+}
+
+/** zenFadeInBig **/
+
+.zenFadeInBig {
+  -webkit-animation: zenFadeIn 2s;
+  animation: zenFadeIn 2s;
+}
+
+/** zenFadeInUpBig **/
+
+.zenFadeInUpBig {
+  -webkit-animation: zenFadeInUpBig 2s;
+  animation: zenFadeInUpBig 2s;
+}
+
+@-webkit-keyframes zenFadeInUpBig {
+  0% {opacity: 0;-webkit-transform: translateY(250px);}
+  100% {opacity: 1;-webkit-transform: translateY(0);}
+}
+@keyframes zenFadeInUpBig {
+  0% {opacity: 0;transform: translateY(250px);}
+  100% {opacity: 1;transform: translateY(0);}
+}
+
+/** zenFadeInLeftBig **/
+
+.zenFadeInLeftBig {
+  -webkit-animation: zenFadeInLeftBig 2s;
+  animation: zenFadeInLeftBig 2s;
+}
+@-webkit-keyframes zenFadeInLeftBig {
+  0% {opacity: 0;-moz-transform: translateX(-250px);}
+  100% {opacity: 1;-moz-transform: translateX(0);}
+}
+@keyframes zenFadeInLeftBig {
+  0% {opacity: 0;transform: translateX(-250px);}
+  100% {opacity: 1;transform: translateX(0);}
+}
+
+/** zenFadeInDownBig **/
+
+.zenFadeDownBig {
+  -webkit-animation: zenFadeInDownBig 2s;
+  animation: zenFadeInDownBig 2s;
+}
+@-webkit-keyframes zenFadeInDownBig {
+  0% {opacity: 0;-webkit-transform: translateY(-250px);}
+  100% {opacity: 1;-webkit-transform: translateY(0);}
+}
+@keyframes zenFadeInDownBig {
+  0% {opacity: 0;transform: translateY(-250px);}
+  100% {opacity: 1;transform: translateY(0);}
+}
+
+/** zenFadeInRightBig **/
+
+.zenFadeInRightBig {
+  -webkit-animation: zenFadeInRightBig 2s;
+  animation: zenFadeInRightBig 2s;
+}
+@-webkit-keyframes zenFadeInRightBig {
+  0% {opacity: 0;-moz-transform: translateX(250px);}
+  100% {opacity: 1;-moz-transform: translateX(0);}
+}
+@keyframes zenFadeInRightBig {
+  0% {opacity: 0;transform: translateX(200px);}
+  100% {opacity: 1;transform: translateX(0);}
+}
